@@ -31,7 +31,7 @@ users_collection = db.users
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
-blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]  # Blocked ports list
+blocked_ports = [8700, 20000, 17500, 9031, 20002, 20001]  # Blocked ports list
 
 async def start_asyncio_thread():
     asyncio.set_event_loop(loop)
